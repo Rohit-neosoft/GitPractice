@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Git commit check.
+
         tabLayout= (TabLayout) findViewById(R.id.tabLayout);
         viewPager= (ViewPager) findViewById(R.id.viewPager);
 
